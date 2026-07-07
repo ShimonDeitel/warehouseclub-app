@@ -1,0 +1,28 @@
+{
+  "identifier" : "Warehouseclub",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "warehouseclub_pro",
+      "localizations" : [
+        {
+          "description" : "Warehouseclub Pro unlocks Break-even calculator and annual savings report",
+          "displayName" : "Warehouseclub Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.shimondeitel.warehouseclub.pro",
+      "referenceName" : "Warehouseclub Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
