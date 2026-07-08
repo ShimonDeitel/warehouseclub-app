@@ -8,14 +8,7 @@ struct ClubTrip: Identifiable, Codable, Equatable {
     var tripDate: Date
     var notes: String
 
-    init(
-        id: UUID = UUID(),
-        createdAt: Date = Date(),
-        store: String = "",
-        amountSaved: Double = 0,
-        tripDate: Date = Date(),
-        notes: String = ""
-    ) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), store: String = "", amountSaved: Double = 0, tripDate: Date = Date(), notes: String = "") {
         self.id = id
         self.createdAt = createdAt
         self.store = store
